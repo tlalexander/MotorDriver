@@ -26,6 +26,16 @@ Features (planned)
 * CPU runs Arduino code for easy portability.
 * Multicolor LED to indicate status.
 
+TODO
+-----
+
+* Determine necessary device pinout and add properly wired headers.
+* Finish layout of current sense section.
+* Add jumper for battery power to CPU.
+* Finish all layout of Board V1.
+* Produce test versions.
+* Write firmware for device.
+
 
 License
 -----
