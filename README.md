@@ -17,14 +17,14 @@ This board is designed to facilitate the development of these applications, but 
 Features (planned)
 ------
 
-At least 1kW maximum power handling (depending on FETs used; theoretical max power for this FET package is 3kW).
-Current feedback for proper current-based motor control.
-Position feedback via external magentic encoder enables full closed loop control of low cost hobby brushless motors.
-Devices can be synchronized for six wire motor control (custom windings, linear motors, etc).
-Independent control of all bridges allows for brushed motor control with an additional half H bridge for other loads.
-USB interface allows easy control from a linux PC. Serial interface allows control from embedded systems such as Arduino.
-CPU runs Arduino code for easy portability.
-Multicolor LED to indicate status.
+* At least 1kW maximum power handling (depending on FETs used; theoretical max power for this FET package is 3kW).
+* Current feedback for proper current-based motor control.
+* Position feedback via external magentic encoder enables full closed loop control of low cost hobby brushless motors.
+* Devices can be synchronized for six wire motor control (custom windings, linear motors, etc).
+* Independent control of all bridges allows for brushed motor control with an additional half H bridge for other loads.
+* USB interface allows easy control from a linux PC. Serial interface allows control from embedded systems such as Arduino.
+* CPU runs Arduino code for easy portability.
+* Multicolor LED to indicate status.
 
 
 License
