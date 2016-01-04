@@ -2655,7 +2655,7 @@ Flutter Pro: SAM3S2A</text>
 <instance part="GND4" gate="1" x="187.96" y="76.2"/>
 <instance part="GND5" gate="1" x="193.04" y="86.36"/>
 <instance part="GND6" gate="1" x="195.58" y="99.06"/>
-<instance part="LED1" gate="G$1" x="299.72" y="213.36"/>
+<instance part="LED1" gate="G$1" x="317.5" y="210.82"/>
 <instance part="GND7" gate="1" x="93.98" y="86.36"/>
 <instance part="IC1" gate="G$1" x="335.28" y="78.74"/>
 <instance part="R16" gate="G$1" x="353.06" y="68.58" rot="R90"/>
@@ -2664,9 +2664,9 @@ Flutter Pro: SAM3S2A</text>
 <instance part="+3V2" gate="G$1" x="335.28" y="91.44"/>
 <instance part="GND8" gate="1" x="322.58" y="53.34"/>
 <instance part="GND9" gate="1" x="335.28" y="66.04"/>
-<instance part="JP1" gate="G$1" x="297.18" y="172.72" rot="R90"/>
-<instance part="+3V3" gate="G$1" x="297.18" y="238.76"/>
-<instance part="GND10" gate="1" x="299.72" y="195.58"/>
+<instance part="JP1" gate="G$1" x="281.94" y="210.82" rot="R180"/>
+<instance part="+3V3" gate="G$1" x="314.96" y="236.22"/>
+<instance part="GND10" gate="1" x="317.5" y="193.04"/>
 </instances>
 <busses>
 </busses>
@@ -2834,7 +2834,7 @@ Flutter Pro: SAM3S2A</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="GND"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="299.72" y1="203.2" x2="299.72" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="200.66" x2="317.5" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -3272,8 +3272,8 @@ Flutter Pro: SAM3S2A</text>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="DI"/>
-<wire x1="287.02" y1="210.82" x2="269.24" y2="210.82" width="0.1524" layer="91"/>
-<label x="269.24" y="210.82" size="1.778" layer="95"/>
+<wire x1="304.8" y1="208.28" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
+<label x="287.02" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S0/UVCCDIV" class="0">
@@ -3616,9 +3616,9 @@ Flutter Pro: SAM3S2A</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="VDD"/>
 <pinref part="LED1" gate="G$1" pin="LEDVDD"/>
-<wire x1="304.8" y1="228.6" x2="297.18" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="226.06" x2="314.96" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="297.18" y1="236.22" x2="297.18" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="233.68" x2="314.96" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">

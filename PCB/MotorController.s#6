@@ -3273,6 +3273,7 @@ Flutter Pro: SAM3S2A</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="DI"/>
 <wire x1="287.02" y1="210.82" x2="269.24" y2="210.82" width="0.1524" layer="91"/>
+<label x="269.24" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S0/UVCCDIV" class="0">

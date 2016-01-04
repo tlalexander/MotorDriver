@@ -32,6 +32,7 @@ TODO
 * Determine necessary device pinout and add properly wired headers.
 * Finish layout of current sense section.
 * Add jumper for battery power to CPU.
+* Full design review.
 * Finish all layout of Board V1.
 * Produce test versions.
 * Write firmware for device.

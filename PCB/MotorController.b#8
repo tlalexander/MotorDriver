@@ -24671,24 +24671,24 @@ design rules under a new name.</description>
 <element name="U$17" library="Taylor" package="0808-CAP" value="0.22uF" x="49.53" y="15.24" rot="R90"/>
 <element name="D1" library="SparkFun" package="SMA-DIODE" value="" x="33.655" y="26.035"/>
 <element name="D3" library="SparkFun" package="SMA-DIODE" value="" x="33.655" y="29.21"/>
-<element name="D4" library="SparkFun" package="SMA-DIODE" value="" x="33.02" y="37.465"/>
+<element name="D4" library="SparkFun" package="SMA-DIODE" value="" x="33.655" y="32.385"/>
 <element name="D5" library="SparkFun" package="SMA-DIODE" value="" x="40.005" y="5.08"/>
 <element name="D6" library="SparkFun" package="SMA-DIODE" value="" x="40.005" y="2.54"/>
 <element name="D7" library="SparkFun" package="SMA-DIODE" value="" x="46.355" y="4.445"/>
-<element name="U$19" library="Taylor" package="HIGH_CURRENT_PAD2" value="HIGHCURRENTPAD2" x="39.37" y="27.94"/>
-<element name="U$20" library="Taylor" package="HIGH_CURRENT_PAD2" value="HIGHCURRENTPAD2" x="46.99" y="27.94"/>
+<element name="U$19" library="Taylor" package="HIGH_CURRENT_PAD2" value="HIGHCURRENTPAD2" x="39.37" y="33.655"/>
+<element name="U$20" library="Taylor" package="HIGH_CURRENT_PAD2" value="HIGHCURRENTPAD2" x="46.355" y="33.655"/>
 <element name="R13" library="Taylor" package="0402-RES" value="4.7" x="62.23" y="12.7" rot="R180"/>
 <element name="R14" library="Taylor" package="0402-RES" value="4.7" x="60.96" y="3.81"/>
 <element name="R15" library="Taylor" package="0402-RES" value="4.7" x="61.595" y="21.59" rot="R180"/>
 <element name="LED1" library="adafruit" package="WS2812" value="WS2812" x="6.35" y="30.48"/>
 <element name="IC1" library="linear" package="SO08" value="OPA333D" x="25.4" y="30.48" rot="R90"/>
-<element name="R16" library="Taylor" package="0402-RES" value="4.7" x="25.4" y="42.545" rot="R180"/>
-<element name="R17" library="Taylor" package="0402-RES" value="4.7" x="17.145" y="41.275"/>
-<element name="R18" library="Taylor" package="0402-RES" value="4.7" x="17.78" y="29.21"/>
-<element name="JP1" library="SparkFun" package="1X10" value="M10&quot;" x="-26.035" y="-11.43"/>
-<element name="U$21" library="Taylor" package="XT60_CONNECTOR" value="XT60" x="42.545" y="32.385" rot="R90"/>
-<element name="X2" library="con-jst-xh" package="B8B-XH" value="08-JST-B8B-XH-A" x="23.495" y="40.005"/>
-<element name="C4" library="Taylor" package="CAP-6.5X18MM" value="" x="-13.335" y="-19.05"/>
+<element name="R16" library="Taylor" package="0402-RES" value="4.7" x="20.32" y="32.385" rot="R270"/>
+<element name="R17" library="Taylor" package="0402-RES" value="4.7" x="19.685" y="28.575" rot="R270"/>
+<element name="R18" library="Taylor" package="0402-RES" value="4.7" x="24.765" y="26.67"/>
+<element name="JP1" library="SparkFun" package="1X10" value="M10&quot;" x="10.16" y="46.99"/>
+<element name="U$21" library="Taylor" package="XT60_CONNECTOR" value="XT60" x="42.545" y="39.37" rot="R90"/>
+<element name="X2" library="con-jst-xh" package="B8B-XH" value="08-JST-B8B-XH-A" x="20.32" y="40.005"/>
+<element name="C4" library="Taylor" package="CAP-6.5X18MM" value="" x="68.58" y="41.275"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -24785,7 +24785,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="4"/>
 <contactref element="U$21" pad="P$2"/>
 <contactref element="C4" pad="-"/>
-<wire x1="11.43" y1="5.334" x2="-0.635" y2="-19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <polygon width="0.4064" layer="15" thermals="no" rank="2">
@@ -25241,9 +25240,9 @@ design rules under a new name.</description>
 <contactref element="R17" pad="1"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="R16" pad="2"/>
-<wire x1="16.645" y1="41.275" x2="24.9" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="22.8" y1="31.115" x2="24.9" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="20.73579375" y1="10.264746875" x2="22.8" y2="31.115" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="31.885" x2="22.8" y2="31.115" width="0" layer="19" extent="1-1"/>
+<wire x1="19.685" y1="29.075" x2="20.32" y2="31.885" width="0" layer="19" extent="1-1"/>
+<wire x1="20.73579375" y1="10.264746875" x2="19.685" y2="29.075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A3/PWML0">
 <contactref element="U3" pad="11"/>
@@ -25620,12 +25619,12 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="D@1"/>
 <contactref element="C1" pad="+"/>
 <polygon width="0.3048" layer="1">
-<vertex x="60.325" y="34.29"/>
+<vertex x="60.325" y="43.18"/>
 <vertex x="60.325" y="5.08"/>
-<vertex x="55.245" y="5.08"/>
-<vertex x="55.245" y="24.13"/>
+<vertex x="53.975" y="5.08"/>
+<vertex x="53.975" y="24.13"/>
 <vertex x="43.18" y="24.13"/>
-<vertex x="43.18" y="34.29"/>
+<vertex x="43.18" y="43.18"/>
 </polygon>
 <via x="57.15" y="9.525" extent="1-16" drill="0.3048"/>
 <via x="57.785" y="9.525" extent="1-16" drill="0.3048"/>
@@ -25735,7 +25734,6 @@ design rules under a new name.</description>
 <contactref element="U$20" pad="P$1"/>
 <contactref element="U$21" pad="P$1"/>
 <contactref element="C4" pad="+"/>
-<wire x1="56.388" y1="5.715" x2="-26.035" y2="-19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="U$4" pad="G"/>
@@ -25892,7 +25890,7 @@ design rules under a new name.</description>
 <contactref element="U$16" pad="1"/>
 <wire x1="49.53" y1="8.625" x2="49.16" y2="8.255" width="0.6096" layer="1"/>
 <wire x1="49.16" y1="8.255" x2="45.39" y2="8.255" width="0.6096" layer="1"/>
-<wire x1="45.39" y1="8.255" x2="35.17" y2="37.465" width="0" layer="19" extent="1-1"/>
+<wire x1="45.39" y1="8.255" x2="35.805" y2="32.385" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CHS">
 <contactref element="U$3" pad="P$15"/>
@@ -25959,7 +25957,7 @@ design rules under a new name.</description>
 <contactref element="D4" pad="A"/>
 <contactref element="D3" pad="A"/>
 <contactref element="D1" pad="A"/>
-<wire x1="31.505" y1="29.21" x2="30.87" y2="37.465" width="0" layer="19" extent="1-1"/>
+<wire x1="31.505" y1="29.21" x2="31.505" y2="32.385" width="0" layer="19" extent="1-1"/>
 <wire x1="31.505" y1="26.035" x2="31.505" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S4">
@@ -25976,8 +25974,8 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="2"/>
 <contactref element="R18" pad="1"/>
 <contactref element="R17" pad="2"/>
-<wire x1="17.28" y1="29.21" x2="28" y2="29.845" width="0" layer="19" extent="1-1"/>
-<wire x1="17.645" y1="41.275" x2="17.28" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="24.265" y1="26.67" x2="28" y2="29.845" width="0" layer="19" extent="1-1"/>
+<wire x1="19.685" y1="28.075" x2="24.265" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="JP1" pad="10"/>

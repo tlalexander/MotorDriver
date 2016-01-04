@@ -2538,6 +2538,8 @@ Source: Texas Instruments (Burr-Brown) .. U11 opa333 Operational Amp.pdf</descri
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun" deviceset="M10" device="&quot;"/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2653,7 +2655,7 @@ Flutter Pro: SAM3S2A</text>
 <instance part="GND4" gate="1" x="187.96" y="76.2"/>
 <instance part="GND5" gate="1" x="193.04" y="86.36"/>
 <instance part="GND6" gate="1" x="195.58" y="99.06"/>
-<instance part="LED1" gate="G$1" x="294.64" y="218.44"/>
+<instance part="LED1" gate="G$1" x="299.72" y="213.36"/>
 <instance part="GND7" gate="1" x="93.98" y="86.36"/>
 <instance part="IC1" gate="G$1" x="335.28" y="78.74"/>
 <instance part="R16" gate="G$1" x="353.06" y="68.58" rot="R90"/>
@@ -2663,6 +2665,8 @@ Flutter Pro: SAM3S2A</text>
 <instance part="GND8" gate="1" x="322.58" y="53.34"/>
 <instance part="GND9" gate="1" x="335.28" y="66.04"/>
 <instance part="JP1" gate="G$1" x="297.18" y="172.72" rot="R90"/>
+<instance part="+3V3" gate="G$1" x="297.18" y="238.76"/>
+<instance part="GND10" gate="1" x="299.72" y="195.58"/>
 </instances>
 <busses>
 </busses>
@@ -2826,6 +2830,11 @@ Flutter Pro: SAM3S2A</text>
 <pinref part="IC1" gate="G$1" pin="V-"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="335.28" y1="71.12" x2="335.28" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="GND"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="299.72" y1="203.2" x2="299.72" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -3261,6 +3270,10 @@ Flutter Pro: SAM3S2A</text>
 <wire x1="116.84" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <label x="99.06" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="DI"/>
+<wire x1="287.02" y1="210.82" x2="269.24" y2="210.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="S0/UVCCDIV" class="0">
 <segment>
@@ -3598,6 +3611,13 @@ Flutter Pro: SAM3S2A</text>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="IC1" gate="G$1" pin="V+"/>
 <wire x1="335.28" y1="88.9" x2="335.28" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="VDD"/>
+<pinref part="LED1" gate="G$1" pin="LEDVDD"/>
+<wire x1="304.8" y1="228.6" x2="297.18" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="297.18" y1="236.22" x2="297.18" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">

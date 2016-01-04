@@ -2653,7 +2653,7 @@ Flutter Pro: SAM3S2A</text>
 <instance part="GND4" gate="1" x="187.96" y="76.2"/>
 <instance part="GND5" gate="1" x="193.04" y="86.36"/>
 <instance part="GND6" gate="1" x="195.58" y="99.06"/>
-<instance part="LED1" gate="G$1" x="279.4" y="198.12"/>
+<instance part="LED1" gate="G$1" x="294.64" y="218.44"/>
 <instance part="GND7" gate="1" x="93.98" y="86.36"/>
 <instance part="IC1" gate="G$1" x="335.28" y="78.74"/>
 <instance part="R16" gate="G$1" x="353.06" y="68.58" rot="R90"/>
