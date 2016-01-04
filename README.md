@@ -9,6 +9,10 @@ Brushless motors have excellent torque characteristics, but complexity in their 
 
 Essentially, this board moves a mechanical problem to a software problem.
 
+This is specifically quite helpful in the field of ultra low cost 3D printed robotics, where simpler mechanisms enable near zero cost robots to be built at home.
+
+This board is designed to facilitate the development of these applications, but is not itself particularly low cost. If you like the idea of good quality brushless motor control for hobbyist robotics, please fork this project, simplify the design, and flood the market with cheap clones from China.
+
 
 Features (planned)
 ------
