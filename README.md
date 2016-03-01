@@ -3,9 +3,9 @@
 
 This is a smart brushless motor driver board capable of precision servo-control (position and velocity control) of a low cost hobby brushless motor. This is managed by use of a magnetic angle sensor, and a feedback software that runs on the motor driver's onboard 64MHz ARM CPU.
 
-The board is still under development and is far from complete, but the ultimate goal of this board is to enable lower cost robotics, especially at the very low cost end for hobbyists.
+The board is still under development, but the ultimate goal of this board is to enable lower cost robotics, especially for hobbyists.
 
-Brushless motors have excellent torque characteristics, but complexity in their control has meant that complex gear reductions are typically needed to make use of these motors. With precise position control, gear reductions can be simplified, reducing mechanical complexity.
+Brushless motors have excellent torque characteristics, but complexity in their control has meant that complex gear reductions are typically needed to make use of these motors. With improved precision on motion control, larger motors can be used in lieu of complex gear trains, reducing system complexity.
 
 Essentially, this board moves a mechanical problem to a software problem.
 
@@ -29,12 +29,12 @@ Features (planned)
 TODO
 -----
 
-* Determine necessary device pinout and add properly wired headers.
-* Finish layout of current sense section.
-* Add jumper for battery power to CPU.
-* Full design review (is everything hooked up right?).
-* Finish all layout of Board V1.
-* Produce test versions.
+* ~~Determine necessary device pinout and add properly wired headers.~~
+* ~~Finish layout of current sense section.~~
+* ~~Add jumper for battery power to CPU.~~
+* ~~Full design review (is everything hooked up right?).~~
+* ~~Finish all layout of Board V1.~~
+* Produce test versions. (in progress)
 * Write firmware for device.
 
 
