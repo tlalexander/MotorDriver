@@ -3709,9 +3709,9 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC1" library="linear" deviceset="OPA333" device="D"/>
-<part name="R16" library="Taylor" deviceset="RESISTOR" device="0402" value="4.7"/>
-<part name="R17" library="Taylor" deviceset="RESISTOR" device="0402" value="4.7"/>
-<part name="R18" library="Taylor" deviceset="RESISTOR" device="0402" value="4.7"/>
+<part name="R16" library="Taylor" deviceset="RESISTOR" device="0402" value="DNS"/>
+<part name="R17" library="Taylor" deviceset="RESISTOR" device="0402" value="88.7K"/>
+<part name="R18" library="Taylor" deviceset="RESISTOR" device="0402" value="6.04k"/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="C4" library="Taylor" deviceset="CAPACITOR-POLARIZED" device=""/>
@@ -3746,7 +3746,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="X4" library="con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$4" library="Taylor" deviceset="CAPACITOR" device="0805"/>
+<part name="U$4" library="Taylor" deviceset="CAPACITOR" device="0805" value="10uF"/>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$5" library="Taylor" deviceset="CAPACITOR" device="0603-CAP" value="470pF"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
@@ -3790,6 +3790,11 @@ Copyright Taylor Alexander 2014</text>
 <wire x1="381" y1="167.64" x2="175.26" y2="167.64" width="0.1524" layer="94"/>
 <wire x1="175.26" y1="167.64" x2="175.26" y2="254" width="0.1524" layer="94"/>
 <text x="254" y="7.62" size="3.81" layer="95">Version 1.0</text>
+<wire x1="5.08" y1="165.1" x2="101.6" y2="165.1" width="0.1524" layer="94"/>
+<wire x1="101.6" y1="165.1" x2="101.6" y2="137.16" width="0.1524" layer="94"/>
+<wire x1="101.6" y1="137.16" x2="5.08" y2="137.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="137.16" x2="5.08" y2="165.1" width="0.1524" layer="94"/>
+<text x="15.24" y="160.02" size="1.778" layer="94">Angle Sensor</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -3915,21 +3920,21 @@ Copyright Taylor Alexander 2014</text>
 <instance part="R1" gate="G$1" x="78.74" y="91.44" rot="R90"/>
 <instance part="R4" gate="G$1" x="78.74" y="104.14" rot="R90"/>
 <instance part="GND17" gate="1" x="78.74" y="81.28"/>
-<instance part="X5" gate="G$1" x="111.76" y="157.48" rot="R180"/>
-<instance part="X6" gate="-1" x="497.84" y="170.18"/>
-<instance part="X6" gate="-2" x="497.84" y="165.1"/>
-<instance part="X6" gate="-3" x="497.84" y="162.56"/>
-<instance part="X6" gate="-4" x="497.84" y="160.02"/>
-<instance part="X6" gate="-5" x="497.84" y="157.48"/>
-<instance part="U$6" gate="G$1" x="454.66" y="160.02"/>
-<instance part="U$7" gate="G$1" x="472.44" y="162.56" rot="R180"/>
+<instance part="X5" gate="G$1" x="144.78" y="167.64" rot="R180"/>
+<instance part="X6" gate="-1" x="83.82" y="157.48"/>
+<instance part="X6" gate="-2" x="83.82" y="152.4"/>
+<instance part="X6" gate="-3" x="83.82" y="149.86"/>
+<instance part="X6" gate="-4" x="83.82" y="147.32"/>
+<instance part="X6" gate="-5" x="83.82" y="144.78"/>
+<instance part="U$6" gate="G$1" x="40.64" y="147.32"/>
+<instance part="U$7" gate="G$1" x="58.42" y="149.86" rot="R180"/>
 <instance part="TP11" gate="G$1" x="35.56" y="104.14"/>
 <instance part="TP12" gate="G$1" x="43.18" y="104.14"/>
 <instance part="GND18" gate="1" x="35.56" y="96.52"/>
-<instance part="STANDOFF1" gate="G$1" x="20.32" y="172.72"/>
-<instance part="STANDOFF2" gate="G$1" x="15.24" y="172.72"/>
-<instance part="STANDOFF3" gate="G$1" x="15.24" y="167.64"/>
-<instance part="STANDOFF4" gate="G$1" x="20.32" y="167.64"/>
+<instance part="STANDOFF1" gate="G$1" x="20.32" y="73.66"/>
+<instance part="STANDOFF2" gate="G$1" x="15.24" y="73.66"/>
+<instance part="STANDOFF3" gate="G$1" x="15.24" y="68.58"/>
+<instance part="STANDOFF4" gate="G$1" x="20.32" y="68.58"/>
 <instance part="TP13" gate="G$1" x="302.26" y="106.68" rot="R270"/>
 <instance part="TP14" gate="G$1" x="266.7" y="109.22" rot="R270"/>
 <instance part="TP15" gate="G$1" x="20.32" y="104.14"/>
@@ -4106,8 +4111,8 @@ Copyright Taylor Alexander 2014</text>
 </segment>
 <segment>
 <pinref part="X5" gate="G$1" pin="GND"/>
-<wire x1="114.3" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
-<label x="119.38" y="157.48" size="1.778" layer="95"/>
+<wire x1="147.32" y1="167.64" x2="157.48" y2="167.64" width="0.1524" layer="91"/>
+<label x="152.4" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="TP5" gate="G$1" pin="P$1"/>
@@ -4121,7 +4126,7 @@ Copyright Taylor Alexander 2014</text>
 <wire x1="20.32" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="S3/PWML2" class="0">
+<net name="S7/PWML2" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="CLI"/>
 <wire x1="116.84" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
@@ -4139,7 +4144,7 @@ Copyright Taylor Alexander 2014</text>
 <junction x="203.2" y="190.5"/>
 </segment>
 </net>
-<net name="S1/PWML1" class="0">
+<net name="S9/PWML1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="BLI"/>
 <wire x1="116.84" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
@@ -4250,7 +4255,7 @@ Copyright Taylor Alexander 2014</text>
 <junction x="254" y="195.58"/>
 </segment>
 </net>
-<net name="S2/PWMH0" class="0">
+<net name="S8/PWMH0" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="/AHI"/>
 <wire x1="116.84" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
@@ -4633,8 +4638,8 @@ Copyright Taylor Alexander 2014</text>
 </segment>
 <segment>
 <pinref part="X5" gate="G$1" pin="D+"/>
-<wire x1="114.3" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
-<label x="119.38" y="149.86" size="1.778" layer="95"/>
+<wire x1="147.32" y1="160.02" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
+<label x="152.4" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UDDM" class="0">
@@ -4651,8 +4656,8 @@ Copyright Taylor Alexander 2014</text>
 </segment>
 <segment>
 <pinref part="X5" gate="G$1" pin="D-"/>
-<wire x1="114.3" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
-<label x="119.38" y="152.4" size="1.778" layer="95"/>
+<wire x1="147.32" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
+<label x="152.4" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UVCC" class="0">
@@ -4669,8 +4674,8 @@ Copyright Taylor Alexander 2014</text>
 </segment>
 <segment>
 <pinref part="X5" gate="G$1" pin="VBUS"/>
-<wire x1="114.3" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
-<label x="119.38" y="154.94" size="1.778" layer="95"/>
+<wire x1="147.32" y1="165.1" x2="157.48" y2="165.1" width="0.1524" layer="91"/>
+<label x="152.4" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B2" class="0">
@@ -4979,7 +4984,7 @@ Copyright Taylor Alexander 2014</text>
 <label x="327.66" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A5" class="0">
+<net name="S11" class="0">
 <segment>
 <wire x1="218.44" y1="200.66" x2="203.2" y2="200.66" width="0.2032" layer="91"/>
 <label x="208.28" y="200.66" size="1.778" layer="95"/>
@@ -5213,48 +5218,47 @@ Copyright Taylor Alexander 2014</text>
 <segment>
 <pinref part="U$6" gate="G$1" pin="VCC"/>
 <pinref part="X6" gate="-2" pin="1"/>
-<wire x1="467.36" y1="165.1" x2="472.44" y2="165.1" width="0.1524" layer="91"/>
-<label x="472.44" y="165.1" size="1.778" layer="95"/>
+<wire x1="53.34" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
+<label x="58.42" y="152.4" size="1.778" layer="95"/>
 <pinref part="U$7" gate="G$1" pin="2"/>
-<wire x1="472.44" y1="165.1" x2="492.76" y2="165.1" width="0.1524" layer="91"/>
-<junction x="472.44" y="165.1"/>
+<wire x1="58.42" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
+<junction x="58.42" y="152.4"/>
 <pinref part="U$6" gate="G$1" pin="TCC_EN"/>
-<wire x1="467.36" y1="160.02" x2="467.36" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="147.32" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND2" class="0">
 <segment>
 <pinref part="X6" gate="-5" pin="1"/>
 <pinref part="U$6" gate="G$1" pin="GND"/>
-<wire x1="492.76" y1="157.48" x2="472.44" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="1"/>
-<wire x1="472.44" y1="157.48" x2="467.36" y2="157.48" width="0.1524" layer="91"/>
-<junction x="472.44" y="157.48"/>
+<wire x1="58.42" y1="144.78" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
+<junction x="58.42" y="144.78"/>
 </segment>
 </net>
 <net name="VOUT2" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="VOUT2"/>
-<wire x1="431.8" y1="162.56" x2="421.64" y2="162.56" width="0.1524" layer="91"/>
-<label x="421.64" y="162.56" size="1.778" layer="95"/>
+<wire x1="17.78" y1="149.86" x2="7.62" y2="149.86" width="0.1524" layer="91"/>
+<label x="7.62" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X6" gate="-4" pin="1"/>
-<wire x1="492.76" y1="160.02" x2="474.98" y2="160.02" width="0.1524" layer="91"/>
-<label x="480.06" y="160.02" size="1.778" layer="95"/>
+<wire x1="78.74" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
+<label x="66.04" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOUT1" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="VOUT1"/>
-<wire x1="431.8" y1="165.1" x2="421.64" y2="165.1" width="0.1524" layer="91"/>
-<label x="421.64" y="165.1" size="1.778" layer="95"/>
+<wire x1="17.78" y1="152.4" x2="7.62" y2="152.4" width="0.1524" layer="91"/>
+<label x="7.62" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X6" gate="-3" pin="1"/>
-<wire x1="492.76" y1="162.56" x2="480.06" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="162.56" x2="474.98" y2="162.56" width="0.1524" layer="91"/>
-<label x="480.06" y="162.56" size="1.778" layer="95"/>
+<wire x1="78.74" y1="149.86" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
+<label x="66.04" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -34,8 +34,14 @@ TODO
 * ~~Add jumper for battery power to CPU.~~
 * ~~Full design review (is everything hooked up right?).~~
 * ~~Finish all layout of Board V1.~~
-* Produce test versions. (in progress)
+* ~~Produce first test version.~~
+* Full board test. (in progress)
 * Write firmware for device.
+
+Media
+-----
+It works! Check out the sweet video:
+https://www.youtube.com/watch?v=cGBqlPRFbaQ
 
 
 License
