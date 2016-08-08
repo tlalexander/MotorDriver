@@ -14,7 +14,7 @@ This is specifically quite helpful in the field of ultra low cost 3D printed rob
 This board is designed to facilitate the development of these applications, but is not itself particularly low cost. If you like the idea of good quality brushless motor control for hobbyist robotics, please fork this project, simplify the design, and flood the market with cheap clones from China.
 
 
-### Note:
+### Note 7/8/2016:
 The current board design works with some changes. I haven't published the changes yet. If you want to make one, contact me first. I'd be happy to push the changes if someone wants to make some of these.
 
 
