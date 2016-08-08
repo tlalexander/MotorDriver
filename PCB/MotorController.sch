@@ -4691,7 +4691,7 @@ Copyright Taylor Alexander 2014</text>
 <junction x="203.2" y="215.9"/>
 </segment>
 </net>
-<net name="S6/IO0" class="0">
+<net name="S4/IO0" class="0">
 <segment>
 <wire x1="198.12" y1="182.88" x2="200.66" y2="182.88" width="0.2032" layer="91"/>
 <label x="208.28" y="182.88" size="1.778" layer="95"/>
@@ -4704,7 +4704,7 @@ Copyright Taylor Alexander 2014</text>
 <junction x="203.2" y="182.88"/>
 </segment>
 </net>
-<net name="S4/IO2" class="0">
+<net name="S6/IO2" class="0">
 <segment>
 <wire x1="198.12" y1="187.96" x2="200.66" y2="187.96" width="0.2032" layer="91"/>
 <label x="208.28" y="187.96" size="1.778" layer="95"/>
@@ -4730,7 +4730,7 @@ Copyright Taylor Alexander 2014</text>
 <junction x="203.2" y="185.42"/>
 </segment>
 </net>
-<net name="S0/CK" class="0">
+<net name="S10/CK" class="0">
 <segment>
 <wire x1="218.44" y1="198.12" x2="203.2" y2="198.12" width="0.1524" layer="91"/>
 <label x="208.28" y="198.12" size="1.778" layer="95"/>
@@ -4878,7 +4878,7 @@ Copyright Taylor Alexander 2014</text>
 <label x="279.4" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S7/B" class="0">
+<net name="S3/B" class="0">
 <segment>
 <wire x1="248.92" y1="182.88" x2="251.46" y2="182.88" width="0.1524" layer="91"/>
 <label x="256.54" y="182.88" size="1.778" layer="95"/>
@@ -4891,7 +4891,7 @@ Copyright Taylor Alexander 2014</text>
 <junction x="254" y="182.88"/>
 </segment>
 </net>
-<net name="S9/R" class="0">
+<net name="S1/R" class="0">
 <segment>
 <wire x1="248.92" y1="187.96" x2="251.46" y2="187.96" width="0.1524" layer="91"/>
 <label x="256.54" y="187.96" size="1.778" layer="95"/>
@@ -4935,7 +4935,7 @@ Copyright Taylor Alexander 2014</text>
 <label x="327.66" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D11" class="0">
+<net name="S0/UVCC" class="0">
 <segment>
 <wire x1="248.92" y1="190.5" x2="251.46" y2="190.5" width="0.2032" layer="91"/>
 <label x="256.54" y="190.5" size="1.778" layer="95"/>
@@ -4984,24 +4984,6 @@ Copyright Taylor Alexander 2014</text>
 <label x="327.66" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S11" class="0">
-<segment>
-<wire x1="218.44" y1="200.66" x2="203.2" y2="200.66" width="0.2032" layer="91"/>
-<label x="208.28" y="200.66" size="1.778" layer="95"/>
-<pinref part="JP14" gate="G$1" pin="12"/>
-<pinref part="JP15" gate="G$1" pin="12"/>
-<wire x1="203.2" y1="200.66" x2="200.66" y2="200.66" width="0.2032" layer="91"/>
-<wire x1="200.66" y1="200.66" x2="198.12" y2="200.66" width="0.2032" layer="91"/>
-<junction x="200.66" y="200.66"/>
-<pinref part="JP17" gate="G$1" pin="12"/>
-<junction x="203.2" y="200.66"/>
-</segment>
-<segment>
-<pinref part="X1" gate="-3" pin="1"/>
-<wire x1="292.1" y1="213.36" x2="276.86" y2="213.36" width="0.1524" layer="91"/>
-<label x="279.4" y="213.36" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="A4" class="0">
 <segment>
 <wire x1="218.44" y1="203.2" x2="203.2" y2="203.2" width="0.2032" layer="91"/>
@@ -5020,7 +5002,7 @@ Copyright Taylor Alexander 2014</text>
 <label x="279.4" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S8/G" class="0">
+<net name="S2/G" class="0">
 <segment>
 <wire x1="248.92" y1="185.42" x2="251.46" y2="185.42" width="0.1524" layer="91"/>
 <label x="256.54" y="185.42" size="1.778" layer="95"/>
@@ -5259,6 +5241,24 @@ Copyright Taylor Alexander 2014</text>
 <pinref part="X6" gate="-3" pin="1"/>
 <wire x1="78.74" y1="149.86" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
 <label x="66.04" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="S11/A5" class="0">
+<segment>
+<wire x1="218.44" y1="200.66" x2="203.2" y2="200.66" width="0.2032" layer="91"/>
+<label x="208.28" y="200.66" size="1.778" layer="95"/>
+<pinref part="JP14" gate="G$1" pin="12"/>
+<pinref part="JP15" gate="G$1" pin="12"/>
+<wire x1="203.2" y1="200.66" x2="200.66" y2="200.66" width="0.2032" layer="91"/>
+<wire x1="200.66" y1="200.66" x2="198.12" y2="200.66" width="0.2032" layer="91"/>
+<junction x="200.66" y="200.66"/>
+<pinref part="JP17" gate="G$1" pin="12"/>
+<junction x="203.2" y="200.66"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-3" pin="1"/>
+<wire x1="292.1" y1="213.36" x2="276.86" y2="213.36" width="0.1524" layer="91"/>
+<label x="279.4" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
